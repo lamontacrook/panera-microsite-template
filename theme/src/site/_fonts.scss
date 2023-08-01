@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('./resources/fonts/SourceSansPro/SourceSansPro-Regular.woff2') format('woff2');
+    src: url('./resources/fonts/panera/calibre-regular.woff2') format('woff2');
   }
   
   @font-face {
@@ -26,7 +26,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url('./resources/fonts/SourceSansPro/SourceSansPro-Bold.woff2') format('woff2');
+    src: url('./resources/fonts/panera/calibre-regular.woff2') format('woff2');
  }
   
 
@@ -35,13 +35,13 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('./resources/fonts/SourceSerifPro/SourceSerifPro-Regular.woff2') format('woff2');
+    src: url('./resources/fonts/panera/archer-medium.woff2') format('woff2');
   }
   
   @font-face {
     font-family: 'titleFont Fallback';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     src: local('Arial');
     ascent-override: 90.75%;
     descent-override: 33.12%;

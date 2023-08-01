@@ -120,6 +120,13 @@
     margin: auto -2em;
     min-width: 100px; 
     width: 160px;
+
+    .cmp-image__image {
+      position: absolute;
+      top:0;
+      width:126px;
+      z-index: 100;
+    }
   }
 
   @media (max-width: $breakpoint-mobile) {

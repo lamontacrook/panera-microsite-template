@@ -1,6 +1,6 @@
 {
-    "name": "aem-site-template-standard-theme",
-    "version": "0.0.2",
+    "name": "panera-microsite-template-theme",
+    "version": "0.0.4",
     "description": "Standard AEM site theme",
     "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
     "scripts": {

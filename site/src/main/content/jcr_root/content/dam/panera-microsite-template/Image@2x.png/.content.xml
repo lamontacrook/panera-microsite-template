@@ -9,12 +9,12 @@
         dam:processingRenditions="[cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cqdam.machine.metadata.json,cq5dam.thumbnail.319.319.png,cq5dam.thumbnail.140.100.png]"
         dam:processingRequestedDate="{Date}2021-02-05T23:49:20.500Z"
         dam:runPostProcess="{Boolean}true"
-        jcr:lastModified="{Date}2023-07-31T11:18:30.592-06:00"
+        jcr:lastModified="{Date}2023-08-01T10:37:29.732-06:00"
         jcr:lastModifiedBy="workflow-process-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:extracted="{Date}2023-07-31T11:18:29.167-06:00"
+            dam:extracted="{Date}2023-08-01T10:37:26.638-06:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"

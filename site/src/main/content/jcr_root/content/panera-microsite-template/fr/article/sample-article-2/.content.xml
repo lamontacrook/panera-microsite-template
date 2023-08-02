@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:cloudserviceconfigs="[/etc/cloudservices/proxy/ids]"
@@ -8,6 +8,7 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Sample Article 2"
+        jcr:uuid="339ab135-780e-44fc-996e-0a52de28fcaf"
         sling:resourceType="core/wcm/components/page/v3/page"
         socialMedia="[facebook,pinterest]">
         <root
@@ -37,12 +38,11 @@
                         jcr:title="Symphony in Steel by Tobias Keller"
                         sling:resourceType="core/wcm/components/image/v3/image"
                         displayPopupTitle="false"
+                        enableAssetDelivery="true"
                         fileReference="/content/dam/panera-microsite-template/building_large.png"
                         isDecorative="true"
                         titleValueFromDAM="false"
-                        uuidDisabled="true"
-                        enableAssetDelivery="true"
-                        >
+                        uuidDisabled="true">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"

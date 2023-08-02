@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <rep:policy/>
@@ -73,11 +73,11 @@
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Content Teaser"
                                 sling:resourceType="wcm/core/components/policy/policy"
-                                showTitleType="false"
-                                titleType="h3"
+                                allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
                                 enableAssetDelivery="true"
+                                showTitleType="false"
                                 sizes="(max-width: 500px) 50vw, 100vw"
-                                allowedRenditionWidths="[320,480,600,800,1024,1200,1600]">
+                                titleType="h3">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <cq:styleGroups jcr:primaryType="nt:unstructured">
                                     <item0
@@ -462,12 +462,12 @@
                                 altValueFromDAM="true"
                                 disableLazyLoading="true"
                                 displayPopupTitle="true"
+                                enableAssetDelivery="true"
                                 isDecorative="false"
                                 jpegQuality="{Long}85"
+                                sizes="(max-width: 500px) 50vw, 100vw"
                                 titleValueFromDAM="true"
-                                uuidDisabled="true"
-                                enableAssetDelivery="true"
-                                sizes="(max-width: 500px) 50vw, 100vw">
+                                uuidDisabled="true">
                                 <jcr:content jcr:primaryType="nt:unstructured"/>
                                 <plugins jcr:primaryType="nt:unstructured">
                                     <crop

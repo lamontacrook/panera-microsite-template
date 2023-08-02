@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:primaryType="sling:OrderedFolder">
+    <Panera_12621_PoppySeed_Salad_0275_RTF_2211pkg_2560x1920.jpg/>
+    <panera-logo-box.png/>
     <jcr:content
         cq:conf="/conf/panera-microsite-template"
         jcr:primaryType="nt:unstructured"
-        jcr:title="My Site">
+        jcr:title="panera-microsite-template">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
     <Image_x0040_2x.png/>
     <Group_x0020_3458_x0040_2x.png/>
     <building_large.png/>
+    <affogato_x0020__x0028_1_x0029_.jpg/>
+    <bacon-corn-strata_x0020__x0028_1_x0029_.jpg/>
+    <FullSpread_09_CountryWhite_2560x1920.jpg/>
 </jcr:root>

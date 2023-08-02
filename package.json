@@ -1,6 +1,6 @@
 {
   "name": "panera-microsite-template",
-  "version": "0.0.4",
+  "version": "0.0.2",
   "description": "Standard Microsite Template used as a starter template for general purpose websites",
   "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
   "scripts": {
